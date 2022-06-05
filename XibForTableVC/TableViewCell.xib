@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="TableViewCell" selectionStyle="default" indentationWidth="10" rowHeight="310" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="StudentCoreData" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="513" height="310"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="513" height="310"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjg-uc-uIE">
+                        <rect key="frame" x="20" y="40" width="473" height="45"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="YIa-fo-bOF"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Label">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" metaFont="system" size="22"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CvJ-w7-LQF">
+                        <rect key="frame" x="20" y="98" width="473" height="45"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="QkN-lc-pX8"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Label">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" metaFont="system" size="22"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cd1-Ph-rHH">
+                        <rect key="frame" x="20" y="158" width="473" height="45"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="5u8-Pj-WQ4"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Label">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" metaFont="system" size="22"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OFQ-P2-Hes">
+                        <rect key="frame" x="20" y="213" width="473" height="45"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="NwD-Xh-mac"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="Label">
+                                <attributes>
+                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" metaFont="system" size="22"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" systemColor="systemTealColor"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="xjg-uc-uIE" secondAttribute="trailing" constant="20" id="4tq-pH-wJ1"/>
+                    <constraint firstItem="OFQ-P2-Hes" firstAttribute="top" secondItem="Cd1-Ph-rHH" secondAttribute="bottom" constant="10" id="MKA-MO-BK7"/>
+                    <constraint firstItem="OFQ-P2-Hes" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Pk3-vI-R5q"/>
+                    <constraint firstAttribute="bottom" secondItem="OFQ-P2-Hes" secondAttribute="bottom" constant="52" id="Qpz-DG-XeY"/>
+                    <constraint firstItem="CvJ-w7-LQF" firstAttribute="trailing" secondItem="xjg-uc-uIE" secondAttribute="trailing" id="UIq-nh-uDu"/>
+                    <constraint firstItem="CvJ-w7-LQF" firstAttribute="leading" secondItem="Cd1-Ph-rHH" secondAttribute="leading" id="WsQ-Ag-DS0"/>
+                    <constraint firstItem="Cd1-Ph-rHH" firstAttribute="top" secondItem="CvJ-w7-LQF" secondAttribute="bottom" constant="15" id="Xiy-dg-l6I"/>
+                    <constraint firstItem="xjg-uc-uIE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="ZXP-06-vwI"/>
+                    <constraint firstItem="xjg-uc-uIE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="40" id="cCR-hn-RFY"/>
+                    <constraint firstItem="CvJ-w7-LQF" firstAttribute="top" secondItem="xjg-uc-uIE" secondAttribute="bottom" constant="13" id="e3t-Ad-slq"/>
+                    <constraint firstItem="CvJ-w7-LQF" firstAttribute="leading" secondItem="xjg-uc-uIE" secondAttribute="leading" id="knz-9x-ThM"/>
+                    <constraint firstAttribute="trailing" secondItem="OFQ-P2-Hes" secondAttribute="trailing" constant="20" id="oRy-kS-jcF"/>
+                    <constraint firstItem="CvJ-w7-LQF" firstAttribute="trailing" secondItem="Cd1-Ph-rHH" secondAttribute="trailing" id="orH-Zr-VSq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblAddress" destination="CvJ-w7-LQF" id="10U-9D-Fnq"/>
+                <outlet property="lblCity" destination="Cd1-Ph-rHH" id="zS0-pQ-89A"/>
+                <outlet property="lblMobile" destination="OFQ-P2-Hes" id="1mG-Bq-Du3"/>
+                <outlet property="lblName" destination="xjg-uc-uIE" id="WwI-Wb-yE2"/>
+            </connections>
+            <point key="canvasLocation" x="0.7246376811594204" y="127.90178571428571"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
